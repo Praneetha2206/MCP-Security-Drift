@@ -46,6 +46,46 @@ TEST_TASK = (
 
 
 # --------------------------------------------------
+# Safety check
+# --------------------------------------------------
+
+def check_output_files_are_safe():
+    """
+    Prevent accidental overwriting of an existing experiment dataset.
+    """
+
+    existing_files = []
+
+    if JSON_FILE.exists():
+        existing_files.append(JSON_FILE)
+
+    if CSV_FILE.exists():
+        existing_files.append(CSV_FILE)
+
+    if existing_files:
+
+        print("\n" + "=" * 60)
+        print("ERROR: EXPERIMENT OUTPUT ALREADY EXISTS")
+        print("=" * 60)
+
+        print("\nThe controller will NOT overwrite existing data.")
+
+        print("\nExisting files:")
+
+        for file in existing_files:
+            print(f"  - {file}")
+
+        print(
+            "\nIf you want to run a new experiment, "
+            "use a new output filename."
+        )
+
+        print("=" * 60)
+
+        raise SystemExit(1)
+
+
+# --------------------------------------------------
 # Configuration helper
 # --------------------------------------------------
 
@@ -55,8 +95,17 @@ def write_config(allowed_roots):
         "allowed_roots": allowed_roots
     }
 
-    with open(CONFIG_FILE, "w", encoding="utf-8") as f:
-        json.dump(config, f, indent=4)
+    with open(
+        CONFIG_FILE,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            config,
+            f,
+            indent=4
+        )
 
 
 # --------------------------------------------------
@@ -94,8 +143,18 @@ def save_dataset(results):
     LOG_DIR.mkdir(exist_ok=True)
 
     # Save complete JSON dataset
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=4, ensure_ascii=False)
+    with open(
+        JSON_FILE,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
+        json.dump(
+            results,
+            f,
+            indent=4,
+            ensure_ascii=False
+        )
 
     # Save CSV dataset
     fieldnames = [
@@ -132,6 +191,11 @@ def save_dataset(results):
 
 async def main():
 
+    # IMPORTANT:
+    # Check before starting the experiment.
+    # This prevents accidental overwriting.
+    check_output_files_are_safe()
+
     print("=" * 60)
     print("Filesystem Scope Expansion Experiment")
     print(f"Repetitions: {NUM_REPETITIONS}")
@@ -147,10 +211,12 @@ async def main():
         ):
 
             print("\n" + "=" * 60)
+
             print(
                 f"REPETITION "
                 f"{repetition}/{NUM_REPETITIONS}"
             )
+
             print("=" * 60)
 
             # --------------------------------------
@@ -196,7 +262,10 @@ async def main():
                 f"{drift_result['outcome']}"
             )
 
+            # --------------------------------------
             # Save after every repetition
+            # --------------------------------------
+
             save_dataset(results)
 
             print(
@@ -223,4 +292,5 @@ async def main():
 # --------------------------------------------------
 
 if __name__ == "__main__":
+
     asyncio.run(main())
