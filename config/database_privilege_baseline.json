@@ -1,0 +1,5 @@
+{
+    "database": "sandbox/database/experiment.db",
+    "read_allowed": true,
+    "write_allowed": false
+}

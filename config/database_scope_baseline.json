@@ -1,0 +1,5 @@
+{
+    "allowed_databases": [
+        "sandbox/database/experiment.db"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "allowed_roots": [
+        "sandbox/workspace"
+    ],
+    "writable_roots": []
+}
