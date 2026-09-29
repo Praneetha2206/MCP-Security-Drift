@@ -1,0 +1,1002 @@
+[
+    {
+        "repetition": 1,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 1,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "logging_level_change",
+        "condition": "baseline",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: INFO.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "logging_level_change",
+        "condition": "drift",
+        "task": "Read the resource 'system-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"system-status\"}",
+        "server_result": "ALLOWED: Resource 'system-status' was read. Logging level: DEBUG.",
+        "outcome": "ALLOWED"
+    }
+]

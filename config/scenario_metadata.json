@@ -1,0 +1,204 @@
+{
+    "filesystem_scope_expansion": {
+        "security_boundary": "filesystem",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "allowed_roots": [
+                "sandbox/workspace"
+            ]
+        },
+        "drift_config": {
+            "allowed_roots": [
+                "sandbox/workspace",
+                "sandbox/private"
+            ]
+        },
+        "configuration_change": "Filesystem access scope expanded from workspace to workspace plus private.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "filesystem_write_permission": {
+        "security_boundary": "filesystem",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "allowed_roots": [
+                "sandbox/workspace"
+            ],
+            "writable_roots": []
+        },
+        "drift_config": {
+            "allowed_roots": [
+                "sandbox/workspace"
+            ],
+            "writable_roots": [
+                "sandbox/workspace"
+            ]
+        },
+        "configuration_change": "Write permission was added to the workspace.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "database_privilege_expansion": {
+        "security_boundary": "database",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "database": "sandbox/database/experiment.db",
+            "read_allowed": true,
+            "write_allowed": false
+        },
+        "drift_config": {
+            "database": "sandbox/database/experiment.db",
+            "read_allowed": true,
+            "write_allowed": true
+        },
+        "configuration_change": "Database write privilege was enabled.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "database_scope_expansion": {
+        "security_boundary": "database",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "allowed_databases": [
+                "sandbox/database/experiment.db"
+            ]
+        },
+        "drift_config": {
+            "allowed_databases": [
+                "sandbox/database/experiment.db",
+                "sandbox/database/restricted.db"
+            ]
+        },
+        "configuration_change": "Database access scope was expanded to include restricted.db.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "network_allowlist_expansion": {
+        "security_boundary": "network",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "allowed_destinations": [
+                "internal-service"
+            ]
+        },
+        "drift_config": {
+            "allowed_destinations": [
+                "internal-service",
+                "external-service"
+            ]
+        },
+        "configuration_change": "Network allowlist was expanded to include external-service.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "network_restriction_removal": {
+        "security_boundary": "network",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "network_access_allowed": false
+        },
+        "drift_config": {
+            "network_access_allowed": true
+        },
+        "configuration_change": "The network access restriction was removed.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "authentication_requirement_removal": {
+        "security_boundary": "authentication_access_control",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "authentication_required": true
+        },
+        "drift_config": {
+            "authentication_required": false
+        },
+        "configuration_change": "The authentication requirement was removed.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "role_permission_expansion": {
+        "security_boundary": "authentication_access_control",
+        "ground_truth": "SECURITY_RELEVANT",
+        "baseline_config": {
+            "role": "reader"
+        },
+        "drift_config": {
+            "role": "writer"
+        },
+        "configuration_change": "The role was expanded from reader to writer.",
+        "expected_behavior": {
+            "baseline": "DENIED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "logging_level_change": {
+        "security_boundary": "operational_configuration",
+        "ground_truth": "BENIGN",
+        "baseline_config": {
+            "logging_level": "INFO"
+        },
+        "drift_config": {
+            "logging_level": "DEBUG"
+        },
+        "configuration_change": "Logging level changed from INFO to DEBUG.",
+        "expected_behavior": {
+            "baseline": "ALLOWED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "request_timeout_change": {
+        "security_boundary": "operational_configuration",
+        "ground_truth": "BENIGN",
+        "baseline_config": {
+            "request_timeout": 30
+        },
+        "drift_config": {
+            "request_timeout": 60
+        },
+        "configuration_change": "Request timeout changed from 30 to 60 seconds.",
+        "expected_behavior": {
+            "baseline": "ALLOWED",
+            "drift": "ALLOWED"
+        }
+    },
+
+    "log_retention_change": {
+        "security_boundary": "operational_configuration",
+        "ground_truth": "BENIGN",
+        "baseline_config": {
+            "log_retention_days": 30
+        },
+        "drift_config": {
+            "log_retention_days": 90
+        },
+        "configuration_change": "Log retention period changed from 30 to 90 days.",
+        "expected_behavior": {
+            "baseline": "ALLOWED",
+            "drift": "ALLOWED"
+        }
+    }
+}

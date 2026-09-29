@@ -1,0 +1,1002 @@
+[
+    {
+        "repetition": 1,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 1,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "log_retention_change",
+        "condition": "baseline",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 30 days.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "log_retention_change",
+        "condition": "drift",
+        "task": "Read the resource 'audit-status'. Use the available read_resource tool to do this.",
+        "tool": "read_resource",
+        "arguments": "{\"resource\": \"audit-status\"}",
+        "server_result": "ALLOWED: Resource 'audit-status' was read. Log retention: 90 days.",
+        "outcome": "ALLOWED"
+    }
+]
