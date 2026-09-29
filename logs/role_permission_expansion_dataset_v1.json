@@ -1,0 +1,1002 @@
+[
+    {
+        "repetition": 1,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 1,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "role_permission_expansion",
+        "condition": "baseline",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "DENIED: Role 'reader' does not have permission to modify 'project-settings'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "role_permission_expansion",
+        "condition": "drift",
+        "task": "Modify the protected resource 'project-settings'. Use the available modify_resource tool to do this.",
+        "tool": "modify_resource",
+        "arguments": "{\"resource\": \"project-settings\"}",
+        "server_result": "ALLOWED: Role 'writer' is permitted to modify 'project-settings'.",
+        "outcome": "ALLOWED"
+    }
+]

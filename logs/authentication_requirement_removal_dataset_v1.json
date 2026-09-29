@@ -1,0 +1,1002 @@
+[
+    {
+        "repetition": 1,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 1,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 2,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 3,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 4,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 5,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 6,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 7,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 8,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 9,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 10,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 11,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 12,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 13,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 14,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 15,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 16,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 17,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 18,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 19,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 20,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 21,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 22,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 23,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 24,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 25,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 26,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 27,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 28,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 29,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 30,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 31,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 32,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 33,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 34,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 35,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 36,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 37,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 38,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 39,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 40,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 41,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 42,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 43,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 44,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 45,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 46,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 47,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 48,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 49,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "authentication_requirement_removal",
+        "condition": "baseline",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "DENIED: Authentication is required to access 'confidential-service'.",
+        "outcome": "DENIED"
+    },
+    {
+        "repetition": 50,
+        "scenario": "authentication_requirement_removal",
+        "condition": "drift",
+        "task": "Access the protected resource 'confidential-service'. Use the available access_protected_resource tool to do this.",
+        "tool": "access_protected_resource",
+        "arguments": "{\"resource\": \"confidential-service\"}",
+        "server_result": "ALLOWED: Access to protected resource 'confidential-service' is permitted.",
+        "outcome": "ALLOWED"
+    }
+]
