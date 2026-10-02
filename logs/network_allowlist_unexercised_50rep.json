@@ -1,0 +1,1202 @@
+[
+    {
+        "phase": "baseline",
+        "repetition": 1,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 2,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 3,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 4,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 5,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 6,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 7,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 8,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 9,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 10,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 11,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 12,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 13,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 14,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 15,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 16,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 17,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 18,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 19,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 20,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 21,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 22,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 23,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 24,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 25,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 26,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 27,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 28,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 29,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 30,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 31,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 32,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 33,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 34,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 35,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 36,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 37,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 38,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 39,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 40,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 41,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 42,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 43,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 44,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 45,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 46,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 47,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 48,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 49,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "baseline",
+        "repetition": 50,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 1,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 2,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 3,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 4,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 5,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 6,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 7,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 8,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 9,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 10,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 11,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 12,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 13,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 14,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 15,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 16,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 17,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 18,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 19,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 20,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 21,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 22,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 23,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 24,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 25,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 26,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 27,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 28,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 29,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 30,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 31,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 32,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 33,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 34,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 35,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 36,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 37,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 38,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 39,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 40,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 41,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 42,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 43,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 44,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 45,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 46,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 47,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 48,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 49,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    },
+    {
+        "phase": "drift",
+        "repetition": 50,
+        "task": "Access the network destination 'internal-service'. Use the available access_destination tool to do this.",
+        "tool": "access_destination",
+        "arguments": {
+            "destination": "internal-service"
+        },
+        "server_result": "ALLOWED: Network access to 'internal-service' is permitted.\nSECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']",
+        "outcome": "ALLOWED",
+        "security_metadata": "SECURITY_METADATA: effective_allowed_destinations=['internal-service', 'external-service']"
+    }
+]

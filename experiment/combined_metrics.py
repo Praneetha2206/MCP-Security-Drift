@@ -1,39 +1,96 @@
 import csv
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-ORIGINAL_RESULTS_CSV = BASE_DIR / "logs" / "detector_results.csv"
-EXTENSION_CSV = BASE_DIR / "logs" / "filesystem_unexercised_50rep.csv"
+
+ORIGINAL_RESULTS_CSV = (
+    BASE_DIR
+    / "logs"
+    / "detector_results.csv"
+)
 
 
-def calculate_metrics(name, predictions, ground_truth):
+EXTENSION_FILES = {
+    "filesystem": (
+        BASE_DIR
+        / "logs"
+        / "filesystem_unexercised_50rep.csv"
+    ),
+    "database": (
+        BASE_DIR
+        / "logs"
+        / "database_scope_unexercised_50rep.csv"
+    ),
+    "network": (
+        BASE_DIR
+        / "logs"
+        / "network_allowlist_unexercised_50rep.csv"
+    ),
+}
+
+
+def calculate_metrics(
+    name,
+    predictions,
+    ground_truth
+):
     tp = fp = tn = fn = 0
 
-    for predicted, actual in zip(predictions, ground_truth):
+    for predicted, actual in zip(
+        predictions,
+        ground_truth
+    ):
 
-        if actual == "SECURITY_RELEVANT" and predicted == "SECURITY_RELEVANT":
+        if (
+            actual == "SECURITY_RELEVANT"
+            and predicted == "SECURITY_RELEVANT"
+        ):
             tp += 1
 
-        elif actual == "BENIGN" and predicted == "SECURITY_RELEVANT":
+        elif (
+            actual == "BENIGN"
+            and predicted == "SECURITY_RELEVANT"
+        ):
             fp += 1
 
-        elif actual == "BENIGN" and predicted == "BENIGN":
+        elif (
+            actual == "BENIGN"
+            and predicted == "BENIGN"
+        ):
             tn += 1
 
-        elif actual == "SECURITY_RELEVANT" and predicted == "BENIGN":
+        elif (
+            actual == "SECURITY_RELEVANT"
+            and predicted == "BENIGN"
+        ):
             fn += 1
 
-    precision = tp / (tp + fp) if (tp + fp) else 0
-    recall = tp / (tp + fn) if (tp + fn) else 0
+    precision = (
+        tp / (tp + fp)
+        if (tp + fp)
+        else 0
+    )
+
+    recall = (
+        tp / (tp + fn)
+        if (tp + fn)
+        else 0
+    )
 
     f1 = (
-        2 * precision * recall / (precision + recall)
+        2 * precision * recall
+        / (precision + recall)
         if (precision + recall)
         else 0
     )
 
-    fnr = fn / (tp + fn) if (tp + fn) else 0
+    fnr = (
+        fn / (tp + fn)
+        if (tp + fn)
+        else 0
+    )
 
     print(f"\n{name}:")
     print(f"  TP: {tp}")
@@ -61,19 +118,40 @@ def calculate_metrics(name, predictions, ground_truth):
 # LOAD ORIGINAL 550-PAIR RESULTS
 # =========================================================
 
-with open(ORIGINAL_RESULTS_CSV, newline="", encoding="utf-8") as f:
-    original_rows = list(csv.DictReader(f))
+with open(
+    ORIGINAL_RESULTS_CSV,
+    newline="",
+    encoding="utf-8"
+) as f:
+
+    original_rows = list(
+        csv.DictReader(f)
+    )
+
 
 print("=" * 70)
-print("COMBINED 600-PAIR METRICS")
+print("FINAL 700-PAIR METRICS")
 print("=" * 70)
 
-print("\nOriginal detector results loaded:")
-print(f"  Rows: {len(original_rows)}")
+
+print(
+    "\nOriginal detector results loaded:"
+)
+
+print(
+    f"  Rows: {len(original_rows)}"
+)
+
+
+if len(original_rows) != 550:
+    raise RuntimeError(
+        "Expected 550 original paired experiments, "
+        f"got {len(original_rows)}."
+    )
 
 
 # =========================================================
-# EXTRACT ORIGINAL RESULTS
+# CHECK ORIGINAL COLUMNS
 # =========================================================
 
 required_columns = {
@@ -83,209 +161,515 @@ required_columns = {
     "hybrid_prediction",
 }
 
-actual_columns = set(original_rows[0].keys())
 
-missing = required_columns - actual_columns
+actual_columns = set(
+    original_rows[0].keys()
+)
+
+
+missing = (
+    required_columns
+    - actual_columns
+)
+
 
 if missing:
     raise RuntimeError(
-        f"Missing columns in detector_results.csv: {sorted(missing)}"
+        "Missing columns in detector_results.csv: "
+        f"{sorted(missing)}"
     )
 
+
+# =========================================================
+# EXTRACT ORIGINAL RESULTS
+# =========================================================
 
 original_ground_truth = [
-    row["ground_truth"].strip().upper()
+    row["ground_truth"]
+    .strip()
+    .upper()
     for row in original_rows
 ]
+
 
 original_configuration = [
-    row["configuration_prediction"].strip().upper()
+    row["configuration_prediction"]
+    .strip()
+    .upper()
     for row in original_rows
 ]
+
 
 original_behaviour = [
-    row["behaviour_prediction"].strip().upper()
+    row["behaviour_prediction"]
+    .strip()
+    .upper()
     for row in original_rows
 ]
+
 
 original_hybrid = [
-    row["hybrid_prediction"].strip().upper()
+    row["hybrid_prediction"]
+    .strip()
+    .upper()
     for row in original_rows
 ]
 
 
 # =========================================================
-# LOAD 50 EXTENSION PAIRS
+# LOAD ALL THREE UNEXERCISED EXTENSIONS
 # =========================================================
 
-with open(EXTENSION_CSV, newline="", encoding="utf-8") as f:
-    extension_rows = list(csv.DictReader(f))
+extension_data = {}
 
 
-extension_baseline = [
-    row
-    for row in extension_rows
-    if row["condition"].strip().upper() == "BASELINE"
-]
+for name, csv_file in EXTENSION_FILES.items():
 
-extension_drift = [
-    row
-    for row in extension_rows
-    if row["condition"].strip().upper() == "DRIFT"
-]
+    print("\n" + "-" * 70)
 
-
-if len(extension_baseline) != 50:
-    raise RuntimeError(
-        f"Expected 50 extension baseline rows, "
-        f"got {len(extension_baseline)}."
+    print(
+        f"Loading {name} extension:"
     )
 
-if len(extension_drift) != 50:
-    raise RuntimeError(
-        f"Expected 50 extension drift rows, "
-        f"got {len(extension_drift)}."
+    print(
+        f"  File: {csv_file}"
     )
 
 
-print("\nExtension results loaded:")
-print(f"  Baseline observations: {len(extension_baseline)}")
-print(f"  Drift observations:    {len(extension_drift)}")
-print(f"  New paired experiments: 50")
+    if not csv_file.exists():
+
+        raise FileNotFoundError(
+            f"Missing extension file: "
+            f"{csv_file}"
+        )
+
+
+    with open(
+        csv_file,
+        newline="",
+        encoding="utf-8"
+    ) as f:
+
+        rows = list(
+            csv.DictReader(f)
+        )
+
+
+    if not rows:
+
+        raise RuntimeError(
+            f"{name}: CSV file is empty."
+        )
+
+
+    # -----------------------------------------------------
+    # SUPPORT BOTH CSV FORMATS
+    # -----------------------------------------------------
+    #
+    # Filesystem extension:
+    #     condition
+    #
+    # Database/network extensions:
+    #     phase
+    #
+    # -----------------------------------------------------
+
+    if "phase" in rows[0]:
+
+        condition_column = "phase"
+
+    elif "condition" in rows[0]:
+
+        condition_column = "condition"
+
+    else:
+
+        raise RuntimeError(
+            f"{name}: CSV must contain either "
+            "'phase' or 'condition'."
+        )
+
+
+    if "outcome" not in rows[0]:
+
+        raise RuntimeError(
+            f"{name}: CSV is missing "
+            "'outcome' column."
+        )
+
+
+    if "security_metadata" not in rows[0]:
+
+        raise RuntimeError(
+            f"{name}: CSV is missing "
+            "'security_metadata' column."
+        )
+
+
+    print(
+        f"  Condition column: "
+        f"{condition_column}"
+    )
+
+    print(
+        f"  Total observations: "
+        f"{len(rows)}"
+    )
+
+
+    # -----------------------------------------------------
+    # SPLIT BASELINE / DRIFT
+    # -----------------------------------------------------
+
+    baseline_rows = [
+        row
+        for row in rows
+        if row[condition_column]
+        .strip()
+        .upper()
+        == "BASELINE"
+    ]
+
+
+    drift_rows = [
+        row
+        for row in rows
+        if row[condition_column]
+        .strip()
+        .upper()
+        == "DRIFT"
+    ]
+
+
+    # -----------------------------------------------------
+    # VALIDATE 50 + 50
+    # -----------------------------------------------------
+
+    if len(baseline_rows) != 50:
+
+        raise RuntimeError(
+            f"{name}: expected 50 baseline rows, "
+            f"got {len(baseline_rows)}."
+        )
+
+
+    if len(drift_rows) != 50:
+
+        raise RuntimeError(
+            f"{name}: expected 50 drift rows, "
+            f"got {len(drift_rows)}."
+        )
+
+
+    extension_data[name] = {
+        "all": rows,
+        "baseline": baseline_rows,
+        "drift": drift_rows,
+    }
+
+
+    print(
+        "  Baseline observations: 50"
+    )
+
+    print(
+        "  Drift observations:    50"
+    )
+
+    print(
+        "  Paired experiments:    50"
+    )
 
 
 # =========================================================
-# EXTENSION GROUND TRUTH
-# =========================================================
-#
-# Filesystem scope expands from:
-#
-#   sandbox/workspace
-#
-# to:
-#
-#   sandbox/workspace + sandbox/private
-#
-# This is classified as SECURITY_RELEVANT even though the
-# selected task remains inside the original workspace.
+# CREATE EXTENSION PREDICTIONS
 # =========================================================
 
-extension_ground_truth = [
-    "SECURITY_RELEVANT"
-] * 50
+all_extension_ground_truth = []
+
+all_extension_configuration = []
+
+all_extension_behaviour = []
+
+all_extension_hybrid = []
+
+all_extension_extended_behaviour = []
 
 
-# =========================================================
-# EXTENSION CONFIGURATION-ONLY PREDICTION
-# =========================================================
-
-extension_configuration = [
-    "SECURITY_RELEVANT"
-] * 50
+# Also keep results separately for validation.
+extension_results = {}
 
 
-# =========================================================
-# EXTENSION BINARY BEHAVIOUR-ONLY PREDICTION
-# =========================================================
-#
-# Original behaviour detector only considers ALLOWED/DENIED.
-#
-# ALLOWED -> ALLOWED
-# therefore:
-# BENIGN
-# =========================================================
+for name, data in extension_data.items():
 
-extension_behaviour = []
+    baseline_rows = data["baseline"]
 
-for baseline, drift in zip(
-    extension_baseline,
-    extension_drift
-):
+    drift_rows = data["drift"]
 
-    baseline_outcome = baseline["outcome"].strip().upper()
-    drift_outcome = drift["outcome"].strip().upper()
 
-    if (
-        baseline_outcome == "DENIED"
-        and drift_outcome == "ALLOWED"
+    # -----------------------------------------------------
+    # GROUND TRUTH
+    # -----------------------------------------------------
+    #
+    # Each extension expands a security boundary:
+    #
+    # Filesystem:
+    # workspace
+    # ->
+    # workspace + private
+    #
+    # Database:
+    # experiment.db
+    # ->
+    # experiment.db + restricted.db
+    #
+    # Network:
+    # internal-service
+    # ->
+    # internal-service + external-service
+    #
+    # Therefore each of the 50 pairs is
+    # SECURITY_RELEVANT.
+    # -----------------------------------------------------
+
+    ground_truth = [
+        "SECURITY_RELEVANT"
+    ] * 50
+
+
+    # -----------------------------------------------------
+    # CONFIGURATION-ONLY
+    # -----------------------------------------------------
+    #
+    # The configuration changed in every pair,
+    # therefore SECURITY_RELEVANT.
+    # -----------------------------------------------------
+
+    configuration = [
+        "SECURITY_RELEVANT"
+    ] * 50
+
+
+    behaviour = []
+
+    hybrid = []
+
+    extended_behaviour = []
+
+
+    # -----------------------------------------------------
+    # PROCESS PAIRED OBSERVATIONS
+    # -----------------------------------------------------
+
+    for baseline, drift in zip(
+        baseline_rows,
+        drift_rows
     ):
-        prediction = "SECURITY_RELEVANT"
-    else:
-        prediction = "BENIGN"
 
-    extension_behaviour.append(prediction)
+        baseline_outcome = (
+            baseline["outcome"]
+            .strip()
+            .upper()
+        )
 
 
-# =========================================================
-# EXTENSION BINARY HYBRID PREDICTION
-# =========================================================
-#
-# Hybrid requires:
-#
-#   configuration change
-#   AND
-#   DENIED -> ALLOWED
-#
-# The configuration changes, but the task remains:
-#
-#   ALLOWED -> ALLOWED
-#
-# Therefore:
-# BENIGN
-# =========================================================
+        drift_outcome = (
+            drift["outcome"]
+            .strip()
+            .upper()
+        )
 
-extension_hybrid = []
 
-for baseline, drift in zip(
-    extension_baseline,
-    extension_drift
-):
+        baseline_metadata = (
+            baseline["security_metadata"]
+            .strip()
+        )
 
-    baseline_outcome = baseline["outcome"].strip().upper()
-    drift_outcome = drift["outcome"].strip().upper()
 
-    baseline_metadata = baseline["security_metadata"].strip()
-    drift_metadata = drift["security_metadata"].strip()
+        drift_metadata = (
+            drift["security_metadata"]
+            .strip()
+        )
 
-    config_changed = (
-        baseline_metadata != drift_metadata
+
+        # =================================================
+        # BINARY BEHAVIOUR-ONLY
+        # =================================================
+        #
+        # Original behaviour detector:
+        #
+        # DENIED -> ALLOWED
+        #     = SECURITY_RELEVANT
+        #
+        # Otherwise:
+        #     = BENIGN
+        #
+        # For unexercised drift:
+        #
+        # ALLOWED -> ALLOWED
+        #
+        # therefore BENIGN.
+        # =================================================
+
+        if (
+            baseline_outcome == "DENIED"
+            and drift_outcome == "ALLOWED"
+        ):
+
+            behaviour_prediction = (
+                "SECURITY_RELEVANT"
+            )
+
+        else:
+
+            behaviour_prediction = "BENIGN"
+
+
+        behaviour.append(
+            behaviour_prediction
+        )
+
+
+        # =================================================
+        # BINARY HYBRID
+        # =================================================
+        #
+        # Requires both:
+        #
+        # 1. configuration changed
+        # 2. observed behaviour changed
+        #
+        # =================================================
+
+        config_changed = (
+            baseline_metadata
+            != drift_metadata
+        )
+
+
+        behaviour_changed = (
+            baseline_outcome == "DENIED"
+            and drift_outcome == "ALLOWED"
+        )
+
+
+        if (
+            config_changed
+            and behaviour_changed
+        ):
+
+            hybrid_prediction = (
+                "SECURITY_RELEVANT"
+            )
+
+        else:
+
+            hybrid_prediction = "BENIGN"
+
+
+        hybrid.append(
+            hybrid_prediction
+        )
+
+
+        # =================================================
+        # EXTENDED BEHAVIOUR-ONLY
+        # =================================================
+        #
+        # Uses SECURITY_METADATA instrumentation.
+        #
+        # If the effective security boundary changes,
+        # classify as SECURITY_RELEVANT.
+        # =================================================
+
+        if (
+            baseline_metadata
+            != drift_metadata
+        ):
+
+            extended_prediction = (
+                "SECURITY_RELEVANT"
+            )
+
+        else:
+
+            extended_prediction = "BENIGN"
+
+
+        extended_behaviour.append(
+            extended_prediction
+        )
+
+
+    # -----------------------------------------------------
+    # STORE EXTENSION RESULTS
+    # -----------------------------------------------------
+
+    extension_results[name] = {
+        "ground_truth": ground_truth,
+        "configuration": configuration,
+        "behaviour": behaviour,
+        "hybrid": hybrid,
+        "extended_behaviour": (
+            extended_behaviour
+        ),
+    }
+
+
+    # -----------------------------------------------------
+    # ADD TO COMBINED DATA
+    # -----------------------------------------------------
+
+    all_extension_ground_truth.extend(
+        ground_truth
     )
 
-    behaviour_changed = (
-        baseline_outcome == "DENIED"
-        and drift_outcome == "ALLOWED"
+
+    all_extension_configuration.extend(
+        configuration
     )
 
-    if config_changed and behaviour_changed:
-        prediction = "SECURITY_RELEVANT"
-    else:
-        prediction = "BENIGN"
 
-    extension_hybrid.append(prediction)
+    all_extension_behaviour.extend(
+        behaviour
+    )
+
+
+    all_extension_hybrid.extend(
+        hybrid
+    )
+
+
+    all_extension_extended_behaviour.extend(
+        extended_behaviour
+    )
 
 
 # =========================================================
-# COMBINE ORIGINAL + EXTENSION
+# COMBINE ORIGINAL + ALL EXTENSIONS
 # =========================================================
 
 combined_ground_truth = (
     original_ground_truth
-    + extension_ground_truth
+    + all_extension_ground_truth
 )
+
 
 combined_configuration = (
     original_configuration
-    + extension_configuration
+    + all_extension_configuration
 )
+
 
 combined_behaviour = (
     original_behaviour
-    + extension_behaviour
+    + all_extension_behaviour
 )
+
 
 combined_hybrid = (
     original_hybrid
-    + extension_hybrid
+    + all_extension_hybrid
 )
 
 
@@ -294,39 +678,108 @@ combined_hybrid = (
 # =========================================================
 
 print("\n" + "=" * 70)
-print("DATASET SUMMARY")
+
+print(
+    "DATASET SUMMARY"
+)
+
 print("=" * 70)
 
-print(f"\nOriginal paired experiments:  {len(original_ground_truth)}")
-print(f"Extension paired experiments: {len(extension_ground_truth)}")
-print(f"Combined paired experiments:  {len(combined_ground_truth)}")
 
-
-security_total = combined_ground_truth.count(
-    "SECURITY_RELEVANT"
+print(
+    f"\nOriginal paired experiments: "
+    f"{len(original_ground_truth)}"
 )
 
-benign_total = combined_ground_truth.count(
-    "BENIGN"
+
+print(
+    "Filesystem extension pairs: 50"
 )
 
-print("\nCombined ground truth:")
-print(f"  SECURITY_RELEVANT: {security_total}")
-print(f"  BENIGN:            {benign_total}")
+
+print(
+    "Database extension pairs:   50"
+)
 
 
-if len(combined_ground_truth) != 600:
+print(
+    "Network extension pairs:    50"
+)
+
+
+print(
+    f"Combined paired experiments: "
+    f"{len(combined_ground_truth)}"
+)
+
+
+security_total = (
+    combined_ground_truth.count(
+        "SECURITY_RELEVANT"
+    )
+)
+
+
+benign_total = (
+    combined_ground_truth.count(
+        "BENIGN"
+    )
+)
+
+
+print(
+    "\nCombined ground truth:"
+)
+
+
+print(
+    f"  SECURITY_RELEVANT: "
+    f"{security_total}"
+)
+
+
+print(
+    f"  BENIGN:            "
+    f"{benign_total}"
+)
+
+
+# =========================================================
+# FINAL DATASET VALIDATION
+# =========================================================
+
+if len(combined_ground_truth) != 700:
+
     raise RuntimeError(
-        "Expected exactly 600 paired experiments."
+        "Expected exactly 700 paired experiments."
+    )
+
+
+if security_total != 550:
+
+    raise RuntimeError(
+        "Expected exactly 550 "
+        "SECURITY_RELEVANT pairs."
+    )
+
+
+if benign_total != 150:
+
+    raise RuntimeError(
+        "Expected exactly 150 BENIGN pairs."
     )
 
 
 # =========================================================
-# COMBINED METRICS
+# FINAL COMBINED METRICS
 # =========================================================
 
 print("\n" + "=" * 70)
-print("COMBINED RESULTS")
+
+print(
+    "FINAL COMBINED RESULTS — 700 PAIRS"
+)
+
 print("=" * 70)
 
 
@@ -352,40 +805,34 @@ calculate_metrics(
 
 
 # =========================================================
-# EXTENSION-SPECIFIC EXTENDED BEHAVIOUR
+# EXTENDED BEHAVIOUR
 # =========================================================
 #
-# This is kept separate because it uses the additional
-# security_metadata instrumentation introduced for the
-# extension.
+# IMPORTANT:
+#
+# This detector is calculated only for the 150
+# unexercised extension pairs because the additional
+# SECURITY_METADATA instrumentation was introduced
+# specifically for these extensions.
+#
+# It is therefore NOT presented as a 700-pair detector
+# result.
 # =========================================================
 
-extended_behaviour = []
-
-for baseline, drift in zip(
-    extension_baseline,
-    extension_drift
-):
-
-    baseline_metadata = baseline["security_metadata"].strip()
-    drift_metadata = drift["security_metadata"].strip()
-
-    if baseline_metadata != drift_metadata:
-        prediction = "SECURITY_RELEVANT"
-    else:
-        prediction = "BENIGN"
-
-    extended_behaviour.append(prediction)
-
-
 print("\n" + "=" * 70)
-print("EXTENSION-SPECIFIC EXTENDED BEHAVIOUR")
+
+print(
+    "EXTENDED BEHAVIOUR — "
+    "150 UNEXERCISED PAIRS"
+)
+
 print("=" * 70)
 
+
 calculate_metrics(
-    "Extended behaviour-only (50 extension pairs)",
-    extended_behaviour,
-    extension_ground_truth,
+    "Extended behaviour-only",
+    all_extension_extended_behaviour,
+    all_extension_ground_truth,
 )
 
 
@@ -394,29 +841,179 @@ calculate_metrics(
 # =========================================================
 
 print("\n" + "=" * 70)
-print("EXTENSION CLASSIFICATION COUNTS")
+
+print(
+    "EXTENSION CLASSIFICATION COUNTS"
+)
+
 print("=" * 70)
 
+
 for name, predictions in [
-    ("Configuration-only", extension_configuration),
-    ("Binary behaviour-only", extension_behaviour),
-    ("Binary hybrid", extension_hybrid),
-    ("Extended behaviour-only", extended_behaviour),
+
+    (
+        "Configuration-only",
+        all_extension_configuration
+    ),
+
+    (
+        "Binary behaviour-only",
+        all_extension_behaviour
+    ),
+
+    (
+        "Binary hybrid",
+        all_extension_hybrid
+    ),
+
+    (
+        "Extended behaviour-only",
+        all_extension_extended_behaviour
+    ),
+
 ]:
 
-    security_count = predictions.count(
-        "SECURITY_RELEVANT"
+    security_count = (
+        predictions.count(
+            "SECURITY_RELEVANT"
+        )
     )
 
-    benign_count = predictions.count(
-        "BENIGN"
+
+    benign_count = (
+        predictions.count(
+            "BENIGN"
+        )
     )
+
 
     print(
         f"{name}: "
-        f"SECURITY_RELEVANT={security_count}, "
-        f"BENIGN={benign_count}"
+        f"SECURITY_RELEVANT="
+        f"{security_count}, "
+        f"BENIGN="
+        f"{benign_count}"
     )
+
+
+# =========================================================
+# EXTENSION-BY-EXTENSION VALIDATION
+# =========================================================
+
+print("\n" + "=" * 70)
+
+print(
+    "EXTENSION VALIDATION"
+)
+
+print("=" * 70)
+
+
+for name, data in extension_data.items():
+
+    baseline_outcomes = [
+        row["outcome"]
+        .strip()
+        .upper()
+        for row in data["baseline"]
+    ]
+
+
+    drift_outcomes = [
+        row["outcome"]
+        .strip()
+        .upper()
+        for row in data["drift"]
+    ]
+
+
+    baseline_metadata = [
+        row["security_metadata"]
+        .strip()
+        for row in data["baseline"]
+    ]
+
+
+    drift_metadata = [
+        row["security_metadata"]
+        .strip()
+        for row in data["drift"]
+    ]
+
+
+    metadata_changed = sum(
+        baseline != drift
+        for baseline, drift
+        in zip(
+            baseline_metadata,
+            drift_metadata
+        )
+    )
+
+
+    baseline_allowed = (
+        baseline_outcomes.count(
+            "ALLOWED"
+        )
+    )
+
+
+    drift_allowed = (
+        drift_outcomes.count(
+            "ALLOWED"
+        )
+    )
+
+
+    print(
+        f"\n{name.capitalize()}:"
+    )
+
+
+    print(
+        f"  Baseline ALLOWED: "
+        f"{baseline_allowed}/50"
+    )
+
+
+    print(
+        f"  Drift ALLOWED: "
+        f"{drift_allowed}/50"
+    )
+
+
+    print(
+        f"  Metadata changed in: "
+        f"{metadata_changed}/50 pairs"
+    )
+
+
+    # -----------------------------------------------------
+    # Validate expected unexercised pattern
+    # -----------------------------------------------------
+
+    if baseline_allowed != 50:
+
+        raise RuntimeError(
+            f"{name}: baseline did not have "
+            "50 ALLOWED outcomes."
+        )
+
+
+    if drift_allowed != 50:
+
+        raise RuntimeError(
+            f"{name}: drift did not have "
+            "50 ALLOWED outcomes."
+        )
+
+
+    if metadata_changed != 50:
+
+        raise RuntimeError(
+            f"{name}: metadata did not change "
+            "in all 50 pairs."
+        )
 
 
 # =========================================================
@@ -424,21 +1021,42 @@ for name, predictions in [
 # =========================================================
 
 print("\n" + "=" * 70)
-print("DONE")
+
+print(
+    "DONE"
+)
+
 print("=" * 70)
 
-print(
-    "\nOriginal 550-pair detector results were read only "
-    "and were not modified."
-)
 
 print(
-    "The 50 unexercised filesystem pairs were added "
-    "for the combined evaluation."
+    "\nOriginal 550-pair detector results were "
+    "read only and were not modified."
 )
 
+
 print(
-    "The metadata-based extended behavioural detector "
-    "is reported separately because it uses additional "
-    "instrumentation."
+    "Three unexercised extensions were included:"
+)
+
+
+print(
+    "  - Filesystem scope expansion: 50 pairs"
+)
+
+
+print(
+    "  - Database scope expansion:   50 pairs"
+)
+
+
+print(
+    "  - Network allowlist expansion: 50 pairs"
+)
+
+
+print(
+    "\nThe extended behavioural detector uses "
+    "additional SECURITY_METADATA instrumentation "
+    "and is reported separately."
 )
