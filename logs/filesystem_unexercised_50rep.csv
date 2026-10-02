@@ -1,0 +1,301 @@
+repetition,condition,task,tool,arguments,server_result,outcome,security_metadata
+1,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+1,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+2,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+2,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+3,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+3,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+4,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+4,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+5,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+5,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+6,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+6,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+7,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+7,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+8,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+8,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+9,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+9,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+10,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+10,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+11,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+11,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+12,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+12,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+13,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+13,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+14,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+14,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+15,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+15,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+16,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+16,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+17,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+17,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+18,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+18,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+19,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+19,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+20,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+20,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+21,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+21,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+22,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+22,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+23,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+23,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+24,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+24,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+25,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+25,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+26,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+26,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+27,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+27,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+28,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+28,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+29,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+29,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+30,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+30,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+31,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+31,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+32,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+32,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+33,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+33,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+34,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+34,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+35,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+35,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+36,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+36,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+37,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+37,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+38,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+38,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+39,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+39,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+40,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+40,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+41,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+41,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+42,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+42,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+43,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+43,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+44,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+44,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+45,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+45,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+46,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+46,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+47,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+47,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+48,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+48,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+49,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+49,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"
+50,BASELINE,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",ALLOWED,['sandbox/workspace']
+50,DRIFT,Read the file sandbox/workspace/hello.txt using the available read_file tool.,read_file,"{""path"": ""sandbox/workspace/hello.txt""}","ALLOWED: ﻿Hello from the allowed workspace.
+
+SECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",ALLOWED,"['sandbox/workspace', 'sandbox/private']"

@@ -1,0 +1,1002 @@
+[
+  {
+    "repetition": 1,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 1,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 2,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 2,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 3,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 3,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 4,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 4,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 5,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 5,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 6,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 6,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 7,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 7,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 8,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 8,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 9,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 9,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 10,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 10,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 11,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 11,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 12,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 12,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 13,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 13,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 14,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 14,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 15,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 15,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 16,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 16,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 17,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 17,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 18,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 18,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 19,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 19,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 20,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 20,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 21,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 21,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 22,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 22,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 23,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 23,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 24,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 24,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 25,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 25,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 26,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 26,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 27,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 27,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 28,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 28,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 29,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 29,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 30,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 30,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 31,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 31,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 32,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 32,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 33,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 33,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 34,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 34,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 35,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 35,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 36,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 36,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 37,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 37,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 38,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 38,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 39,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 39,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 40,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 40,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 41,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 41,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 42,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 42,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 43,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 43,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 44,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 44,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 45,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 45,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 46,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 46,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 47,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 47,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 48,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 48,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 49,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 49,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  },
+  {
+    "repetition": 50,
+    "condition": "BASELINE",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace']"
+  },
+  {
+    "repetition": 50,
+    "condition": "DRIFT",
+    "task": "Read the file sandbox/workspace/hello.txt using the available read_file tool.",
+    "tool": "read_file",
+    "arguments": "{\"path\": \"sandbox/workspace/hello.txt\"}",
+    "server_result": "ALLOWED: \ufeffHello from the allowed workspace.\n\nSECURITY_METADATA: effective_allowed_roots=['sandbox/workspace', 'sandbox/private']",
+    "outcome": "ALLOWED",
+    "security_metadata": "['sandbox/workspace', 'sandbox/private']"
+  }
+]
